@@ -1,0 +1,15 @@
+
+.header .navbar ul li a.active,
+.header .navbar ul li a:hover {
+    color: #FFE7A0;
+}
+
+.couple-section .couple img {
+    border-color: #171010;
+}
+
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3 {
+    color: #171010;
+}
+

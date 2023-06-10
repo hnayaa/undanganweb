@@ -1,0 +1,116 @@
+
+@media(min-width:768) {
+    .header .navbar {
+        display: block!important;
+    }
+}
+
+@media(max-width: 991px){
+    .galery-section .galery-item,
+    .event-sections .event-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 767px) {
+    .header .logo {
+        padding: 8px 15px;
+    }
+
+    .header .hamburger-btn {
+        display: flex;
+        margin-right: 15px;
+    }
+
+    .header .navbar {
+        flex: 0 0 100%;
+        max-width: 100%;
+        background-color: #ffffff;
+        border-top: 1px solid #cccccc;
+        display: none;
+    }
+
+    .header .navbar ul li {
+        display: block;
+        margin-left: 0;
+    }
+
+    .header .navbar ul li a {
+        color: #555555;
+        padding: 10px 0;
+    }
+
+    .home-section .slide.active .home-content h1 {
+        font-size: 60px;
+    }
+
+    .couple-section .couple {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    
+    }
+
+    .couple-section .couple:nth-child(2){
+        margin-top: 50px;
+    }
+
+    .couple-section .couple:nth-child(2):before {
+        content: none;
+    }
+
+    .couple-section .couple i.fa-heart {
+        display: none;
+    }
+
+    .banner1 p {
+        font-size: 15px;
+    }
+
+    .event-sections .event-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .event-sections .event-item:nth-child(2) {
+        transform: translateY(0px);
+    }
+
+    .footer-section .footer-content h1 {
+        font-size: 60px;
+    }
+
+    .home-section .home-content .musik .audio {
+        width: 50%;
+        padding-top: 5px;
+    }
+
+}
+
+@media(max-width: 574px) {
+    .home-section .slide.active .home-content h1 {
+        font-size: 40px;
+    }
+
+    .banner1 p {
+        font-size: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .galery-section .galery-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .footer-section .footer-content h1 {
+        font-size: 40px;
+    }
+
+    .home-section .home-content .musik .audio {
+        width: 60%;
+        padding-top: 5px;
+    }
+
+}
